@@ -1,10 +1,7 @@
 ## About the project
 
-There should be gif:
 
-![image-20220515194554174](C:\Users\Настя\AppData\Roaming\Typora\typora-user-images\image-20220515194554174.png)
-
-## [Live Demo](link to github-pages)
+![Image alt](https://github.com/Flyingcanoee/surf-shop/raw/main/surf-shop1.gif)
 
 Surf-shop is an online board-store implemented on Vue.js. There were used such technologies as:
 
