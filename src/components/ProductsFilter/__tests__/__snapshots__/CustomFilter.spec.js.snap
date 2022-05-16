@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilterComponent should match snapshot 1`] = `
+<div class="filter-wrapper">
+  <div class="filter-block">
+    <div class="filter-block__item">
+      <basecustomicon-stub icon="menu_filter_column" width="50%"></basecustomicon-stub>
+    </div>
+    <div class="filter-block__item active">
+      <basecustomicon-stub icon="menu_filter_grid" width="50%"></basecustomicon-stub>
+    </div>
+  </div>
+  <div class="custom-select-block">
+    <div class="custom-select">
+      <div class="custom-select__selected">
+        From new to old
+        <img src="" alt="arrow-icon" class="custom-select__arrow-icon">
+      </div>
+      <!---->
+    </div>
+  </div>
+</div>
+`;

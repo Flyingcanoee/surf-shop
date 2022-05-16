@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDescription shoult match snapshot 1`] = `
+<div
+  class="product-description"
+  created=""
+  updated=""
+>
+  <h2
+    class="product-description__title"
+  >
+    title
+  </h2>
+   
+  <p
+    class="product-description__category"
+  >
+    Category
+  </p>
+   
+  <div
+    class="product-description__rating-icon"
+  >
+    <div>
+      <div
+        class="star-rating"
+      >
+        <i
+          class="star star--empty fa fa-star"
+        />
+        <i
+          class="star star--empty fa fa-star"
+        />
+        <i
+          class="star star--empty fa fa-star"
+        />
+        <i
+          class="star star--empty fa fa-star"
+        />
+        <i
+          class="star star--empty fa fa-star"
+        />
+         
+        <div
+          class="star-rating__colored"
+          style="width: 0%;"
+        >
+          <i
+            class="star star--colored fa fa-star"
+          />
+          <i
+            class="star star--colored fa fa-star"
+          />
+          <i
+            class="star star--colored fa fa-star"
+          />
+          <i
+            class="star star--colored fa fa-star"
+          />
+          <i
+            class="star star--colored fa fa-star"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <p
+    class="product-description__date"
+  >
+    
+  </p>
+</div>
+`;

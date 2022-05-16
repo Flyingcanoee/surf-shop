@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<div
+  class="header-wrapper"
+>
+  <div
+    class="container"
+  >
+    <div
+      class="header"
+    >
+      <mobile-menu-button-stub />
+       
+      <mobile-menu-panel-stub />
+       
+      <base-custom-icon-stub
+        class="header__logo-icon"
+        icon="grade_white_24dp"
+        width="50px"
+      />
+       
+      <base-button-router-stub
+        class="header__buttonRouter"
+        path="/"
+      >
+        HOME
+      </base-button-router-stub>
+       
+      <base-button-router-stub
+        class="header__buttonRouter"
+        path="/products"
+      >
+        PRODUCTS
+      </base-button-router-stub>
+    </div>
+     
+    <div
+      class="header"
+    >
+      <shopping-cart-icon-stub
+        class="header__cart-icon"
+        width="50px"
+      />
+       
+      <div>
+        <base-text-filled-button-stub
+          color="custom-black"
+        >
+          Sign in 
+        </base-text-filled-button-stub>
+      </div>
+       
+      <sign-in-form-stub
+        class=""
+      />
+       
+      <div
+        class=""
+      />
+    </div>
+  </div>
+</div>
+`;

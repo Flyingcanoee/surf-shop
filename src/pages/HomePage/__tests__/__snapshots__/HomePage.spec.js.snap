@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage renders a valid snapshot 1`] = `
+<div>
+  <welcome-title-stub></welcome-title-stub>
+  <div class="page-container">
+    <div class="products-list">
+      <ul class="products-list__items">
+        <productitem-stub product="[object Object]" id="45196514-a1d2-45ba-8e8d-c49e60cc99c3" image="http://placeimg.com/640/480" price="7" discountpercentage="0" pricewithdiscount="0" title="Unbranded Steel Bike" category="nobis" rating="0" date="2021-03-27T18:39:19.237Z"></productitem-stub>
+        <productitem-stub product="[object Object]" id="8a45ebaf-a3c7-468b-8cfb-d0b4147d01d6" image="http://placeimg.com/640/480" price="679" discountpercentage="0" pricewithdiscount="0" title="Incredible Frozen Keyboard" category="sed" rating="0" date="2021-06-30T06:53:12.692Z"></productitem-stub>
+        <productitem-stub product="[object Object]" id="9d7732e2-116f-4557-a32a-53200786f8d1" image="http://placeimg.com/640/480" price="579" discountpercentage="0" pricewithdiscount="0" title="Unbranded Fresh Mouse" category="dicta" rating="0" date="2021-09-09T23:17:40.690Z"></productitem-stub>
+        <productitem-stub product="[object Object]" id="431059dd-e258-4962-b528-3e5156996fd7" image="http://placeimg.com/640/480" price="48" discountpercentage="0" pricewithdiscount="0" title="Generic Plastic Gloves" category="dicta" rating="0" date="2022-01-28T19:50:03.615Z"></productitem-stub>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

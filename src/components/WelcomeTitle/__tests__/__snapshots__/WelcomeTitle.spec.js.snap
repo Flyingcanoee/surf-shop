@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeTitle.vue should match snapshot 1`] = `
+<div class="welcome-title" title="title">
+  <div class="welcome-title__left-part">
+    <div class="welcome-title__caption">
+      <div class="welcome-title__title both">
+        CATCH THE WAVE!
+      </div>
+      <div class="welcome-title__undertitle both">
+        CATCH THE WAVE!
+      </div>
+    </div>
+    <base-button-router-stub path="/products" class="welcome-title__surf-btn"><img src="" alt="surf-btn"> <span class="welcome-title__surf-btn-text">START SURFING</span></base-button-router-stub>
+  </div>
+  <div class="welcome-title__photo"><img src="" alt="firstImage" class="welcome-title__firstImage"> <img src="" alt="secondImage" class="welcome-title__secondImage"></div>
+</div>
+`;

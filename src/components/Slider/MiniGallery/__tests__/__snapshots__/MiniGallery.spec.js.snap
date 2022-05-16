@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MiniGallery match snapshot 1`] = `
+<div class="mini-gallery__wrapper">
+  <div class="mini-gallery__item_active"><img src="[object Object]"></div>
+  <div class="mini-gallery__item"><img src="[object Object]"></div>
+  <div class="mini-gallery__item"><img src="[object Object]"></div>
+  <div class="mini-gallery__item"><img src="[object Object]"></div>
+</div>
+`;

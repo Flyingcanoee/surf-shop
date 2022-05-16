@@ -1,0 +1,60 @@
+$primary: black;
+$primary-hover: #8c8c8d;
+
+$background-grey: #fafafa;
+$background-light-grey: #f0eeee;
+$background-disabled: #6c6c6c6b;
+
+$shadow: 0 2px 3px 0 #223c5033;
+$error: #f76767;
+$error-hover: #ff5656;
+$white: #fff;
+$white-hover: #eee;
+$grey-hover: #3b3b3b;
+
+$font-size-basic: 18px;
+$font-size-subtitle: 24px;
+$font-size-title: 36px;
+
+$font-color-title: #04080e;
+$font-color-subtitle: #6c6c6c;
+$font-color-text: #b3b4b6;
+
+$transition: all 0.4s ease-in-out;
+
+$button-disabled-bg: #c4c4c4;
+$button-disabled-color: #818181;
+
+$button-empty-cart-color: #a0a0a0;
+
+$mobile-size: 576px;
+$tablet-size: 768px;
+$laptop-size: 992px;
+$desktop-size: 1200px;
+
+$border-radius-small: 4px;
+$border-radius-big: 10px;
+
+$light-border-color: #e6e6e6;
+
+$z-index-header: 4;
+$z-index-popup: 5;
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}

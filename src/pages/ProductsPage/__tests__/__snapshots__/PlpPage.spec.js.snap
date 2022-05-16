@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductsPage renders a valid snapshot 1`] = `
+<div class="page-container" sortfield="">
+  <div class="search-bar">
+    <search-field-stub placeholder="Type something"></search-field-stub>
+  </div>
+  <div class="products-page__sorting">
+    <select-field-stub categories="a,b,c" categoryname="Category" class="products-page__select"></select-field-stub>
+    <div class="filter-wrapper">
+      <div class="filter-block">
+        <div class="filter-block__item">
+          <basecustomicon-stub icon="menu_filter_column" width="50%"></basecustomicon-stub>
+        </div>
+        <div class="filter-block__item active">
+          <basecustomicon-stub icon="menu_filter_grid" width="50%"></basecustomicon-stub>
+        </div>
+      </div>
+      <div class="custom-select-block">
+        <div class="custom-select">
+          <div class="custom-select__selected">
+            From new to old
+            <img src="" alt="arrow-icon" class="custom-select__arrow-icon">
+          </div>
+          <!---->
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="products-list">
+    <ul class="products-list__items">
+      <productitem-stub product="[object Object]" id="1" price="800.7263828" discountpercentage="0" pricewithdiscount="0" title="Soft Soap" category="HOME" rating="0" date="2022-02-02T10:25:52.266Z"></productitem-stub>
+    </ul>
+  </div>
+  <div class="pagination__wrapper">
+    <v-pagination-stub circle="true" length="12" nexticon="mdi-menu-right" previcon="mdi-menu-left" totalvisible="9" value="1" pagearialabel="$vuetify.pagination.ariaLabel.page" currentpagearialabel="$vuetify.pagination.ariaLabel.currentPage" previousarialabel="$vuetify.pagination.ariaLabel.previous" nextarialabel="$vuetify.pagination.ariaLabel.next" wrapperarialabel="$vuetify.pagination.ariaLabel.wrapper" class="pagination"></v-pagination-stub>
+  </div>
+</div>
+`;

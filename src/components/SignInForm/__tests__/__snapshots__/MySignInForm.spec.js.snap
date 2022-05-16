@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MMySignInForm renders correctly 1`] = `
+<form
+  class="sign-in-form"
+  novalidate="novalidate"
+>
+  <button
+    class="sign-in-form__cross active"
+  >
+    <img
+      alt="cross-icon"
+      src=""
+    />
+  </button>
+   
+  <img
+    class="sign-in-form__shark"
+    src=""
+  />
+   
+  <h1
+    class="sign-in-form__heading"
+  >
+    LOGIN
+  </h1>
+   
+  <input-form-stub
+    category="Phone number"
+    class=""
+    error=""
+  />
+   
+  <input-form-stub
+    category="Email"
+    class=""
+    error="The email is required"
+  />
+   
+  <div
+    class="sign-in-form__buttons"
+  >
+    <base-button-stub
+      class="sign-in-form__button save"
+      type="submit"
+    >
+      
+      SAVE
+    
+    </base-button-stub>
+     
+    <button>
+      SIGN UP
+    </button>
+  </div>
+</form>
+`;

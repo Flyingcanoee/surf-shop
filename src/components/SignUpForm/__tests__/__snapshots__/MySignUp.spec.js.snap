@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyProfileInfo renders correctly 1`] = `
+<div
+  class="sign-up-form"
+>
+  <img
+    class="sign-up-form__octopus"
+    src=""
+  />
+   
+  <form
+    novalidate="novalidate"
+  >
+    <button
+      class="sign-up-form__cross active"
+    >
+      <img
+        alt="cross-icon"
+        src=""
+      />
+    </button>
+     
+    <h1
+      class="sign-up-form__heading"
+    >
+      SIGN UP
+    </h1>
+     
+    <input-form-stub
+      category="Last Name"
+      class=""
+      error="The last name is required"
+    />
+     
+    <selectfield-stub
+      categories="not specified,male,female"
+      categoryname="Gender"
+      class="sign-up-form__select"
+    />
+     
+    <input-form-stub
+      category="Phone number"
+      class=""
+      error=""
+    />
+     
+    <input-form-stub
+      category="Email"
+      class=""
+      error="The email is required"
+    />
+     
+    <div
+      class="sign-up-form__buttons"
+    >
+      <base-button-stub
+        class="sign-up-form__button save"
+        type="submit"
+      >
+        
+        SAVE
+      
+      </base-button-stub>
+       
+      <button>
+        SIGN IN
+      </button>
+    </div>
+  </form>
+</div>
+`;

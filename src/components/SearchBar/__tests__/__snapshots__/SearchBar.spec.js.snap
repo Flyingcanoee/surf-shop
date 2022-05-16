@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar should render correctly and match valid snapshot 1`] = `
+<div
+  class="search-bar"
+>
+  <search-field-stub
+    placeholder="Type something"
+  />
+</div>
+`;

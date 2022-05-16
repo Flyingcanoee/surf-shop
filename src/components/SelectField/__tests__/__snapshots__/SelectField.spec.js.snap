@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField should render correctly and match snapshot 1`] = `
+<div
+  class="select-field__wrapper"
+>
+  <button
+    class="select-field__button"
+    type="button"
+  >
+    <div
+      class="select-field__category"
+    >
+      Category
+    </div>
+     
+    <div>
+      a
+    </div>
+     
+    <img
+      alt="arrow-icon"
+      class="select-field__arrow-icon"
+      src=""
+    />
+  </button>
+   
+  <ul
+    class="select-field__dropdown"
+  >
+    <li>
+      
+  a
+
+    </li>
+    <li>
+      
+  b
+
+    </li>
+    <li>
+      
+  c
+
+    </li>
+  </ul>
+</div>
+`;

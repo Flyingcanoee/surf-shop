@@ -1,0 +1,154 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductItem shoult match snapshot 1`] = `
+<li
+  class="product-item"
+  created=""
+  updated=""
+>
+  <router-link-stub
+    class="base-button-router product-item__link"
+    to="/products/0"
+  >
+    <img
+      alt="product image"
+      class="product-item__image"
+      src=""
+    />
+     
+    <div
+      class=""
+    >
+      
+      
+    
+    </div>
+     
+    <div
+      class="product-description"
+    >
+      <h2
+        class="product-description__title"
+      >
+        title
+      </h2>
+       
+      <p
+        class="product-description__category"
+      >
+        Category
+      </p>
+       
+      <div
+        class="product-description__rating-icon"
+      >
+        <div>
+          <div
+            class="star-rating"
+          >
+            <i
+              class="star star--empty fa fa-star"
+            />
+            <i
+              class="star star--empty fa fa-star"
+            />
+            <i
+              class="star star--empty fa fa-star"
+            />
+            <i
+              class="star star--empty fa fa-star"
+            />
+            <i
+              class="star star--empty fa fa-star"
+            />
+             
+            <div
+              class="star-rating__colored"
+              style="width: 0%;"
+            >
+              <i
+                class="star star--colored fa fa-star"
+              />
+              <i
+                class="star star--colored fa fa-star"
+              />
+              <i
+                class="star star--colored fa fa-star"
+              />
+              <i
+                class="star star--colored fa fa-star"
+              />
+              <i
+                class="star star--colored fa fa-star"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+       
+      <p
+        class="product-description__date"
+      >
+        Invalid Date
+      </p>
+    </div>
+     
+    <div
+      class="product-item__price-container"
+    >
+      <div
+        class="product-price"
+      >
+        <!---->
+         
+        <span
+          class=""
+        >
+          
+          10
+        
+        </span>
+      </div>
+       
+      <div
+        class="product-item__add-container"
+      >
+        <router-link-stub
+          class="base-button-router"
+          to="/cart"
+        >
+          <div
+            class="product-item__add-to-cart"
+          >
+            <img
+              alt=""
+              src=""
+            />
+          </div>
+        </router-link-stub>
+         
+        <div
+          class="quantity__wrapper"
+        >
+          <button
+            class="base-button base-text-button base-text-filled-button custom-black"
+          >
+            -
+          </button>
+           
+          <input
+            class="quantity__field"
+            readonly="readonly"
+          />
+           
+          <button
+            class="base-button base-text-button base-text-filled-button custom-black"
+          >
+            +
+          </button>
+        </div>
+      </div>
+    </div>
+  </router-link-stub>
+</li>
+`;

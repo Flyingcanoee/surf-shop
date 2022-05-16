@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ShoppingCartPage renders a valid snapshot 1`] = `
+<div class="shopping-cart-page__wrapper page-container">
+  <div class="shopping-cart-page__price-container">
+    <h1 class="shopping-cart-page__title">
+      Your cart <span>is empty</span></h1>
+    <div class="shopping-cart-page__total-price"><span class="shopping-cart-page__total">total:</span>
+      100
+    </div>
+  </div>
+  <div class="cart-empty">
+    <p class="cart-empty__message">
+      <base-button-router-stub path="/products">
+        Start searching
+      </base-button-router-stub>
+    </p>
+    <lottie-animation path="./animations/empty-cart-lottie.json" class="cart-empty__animation"></lottie-animation>
+  </div>
+</div>
+`;

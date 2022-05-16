@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetails.vue should match snapshot 1`] = `
+<div
+  class="product-details__wrapper page-container"
+>
+  <div
+    class="product-details__content"
+  >
+    <head-info-stub
+      date="2022-01-31T09:22:07.577Z"
+      discountpercentage="0"
+      name="Fantastic Soft Sausages"
+      price="852"
+      pricewithdiscount="0"
+    />
+     
+    <product-gallery-stub
+      discount="0"
+      images="http://placeimg.com/640/480,http://placeimg.com/640/480,http://placeimg.com/640/480"
+      rating="0"
+    />
+  </div>
+</div>
+`;
